@@ -65,14 +65,14 @@
 	<!-- end:Main Form -->
 </div>
 </center>
-<!--footer-->
-<footer class="w3-grey w3-card-2 w3-container w3-fixed-bottom">
+
+<!--<footer class="w3-grey w3-card-2 w3-container w3-fixed-bottom">
 <div  class="w3-grey w3-center w3-row-padding w3-padding-4  w3-container">
   <div class="w3-content">
-    <a href="#" class="w3-circle"><i class="fa fa-facebook-square" style="font-size:40px;color:white;"></i></a>
-    <a href="#" class="w3-circle"><i class="fa fa-twitter-square" style="font-size:40px;color:white;"></i></a>
-    <a href="#" class="w3-circle"><i class="fa fa-linkedin-square" style="font-size:40px;color:white;"></i></a>
-    <a href="#" class="w3-circle"><i class="fa fa-google-plus-square" style="font-size:40px;color:white;"></i></a>  
+    <a href="#" class="w3-circle"><i class="fa fa-facebook-square" style="font-size:20px;color:white;"></i></a>
+    <a href="#" class="w3-circle"><i class="fa fa-twitter-square" style="font-size:20px;color:white;"></i></a>
+    <a href="#" class="w3-circle"><i class="fa fa-linkedin-square" style="font-size:20px;color:white;"></i></a>
+    <a href="#" class="w3-circle"><i class="fa fa-google-plus-square" style="font-size:20px;color:white;"></i></a>  
     <div class="w3-third w3-center">
 
     </div>
@@ -80,8 +80,8 @@
 
     </div>
   </div>
-</div>
-  <h6><center><span > @all coptrights reserved by alumni association nitkkr</span></center></h6>
+</div> -->
+  
 </footer>
   <!-- jQuery first, then Bootstrap JS. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

@@ -47,12 +47,12 @@
     </div>
     <div class="collapse navbar-collapse " id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a class="w3-text-white  w3-hover-text-green " href="home.html">Home</a></li>
-        <li><a class="w3-text-white  w3-hover-text-green" href="Alumni.html">Alumni</a></li>
-        <li><a class="w3-text-white  w3-hover-text-green" href="gallery.html">Gallery</a></li>
-        <li><a class="w3-text-white  w3-hover-text-green" href="#">Career</a></li>
-        <li><a class="w3-text-white  w3-hover-text-green" href="contactUs.html">Contact Us</a></li>
-        <li class="active"><a class="w3-text-white  w3-hover-text-green" href="Testimonials.html">Testimonials</a></li>
+        <li><a class="w3-text-white  w3-hover-text-green " href="home.php">Home</a></li>
+        <li><a class="w3-text-white  w3-hover-text-green" href="Alumni.php">Alumni</a></li>
+        <li><a class="w3-text-white  w3-hover-text-green" href="gallery.php">Gallery</a></li>
+        <li class="active"><a class="w3-text-white  w3-hover-text-green" href="Testimonials.php">Testimonials</a></li>
+        <li><a class="w3-text-white  w3-hover-text-green" href="contactUs.php">About Us</a></li>
+        
       </ul>
     </div>
   </div>
@@ -65,18 +65,18 @@
 
 <!-- first Grid -->
 <section class="main w3-border w3-container w3-light-grey w3-hover-indigo "><br>
-			<center><p><h2>Web Team 2016</h2></p></center>
+			<center><p><h3>Web Team 2016</h3></p></center>
 				<ul class="ch-grid">
 					<li>
 						<div class="ch-item ch-img-1">				
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-1">
+									<div class="ch-info-front " style="background-image: url(css/user/dayal.jpg);">
 										
 									</div>
 									<div class="ch-info-back">
-										<h3>Dayal Saini</h3><p>Team member</p>
-										<a href="#"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
+										<h3>Dayal Saini</h3><p>See me on</p>
+										<a href="https://www.facebook.com/Thhmoc67"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
 										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
 									</div>	
 								</div>
@@ -87,10 +87,12 @@
 						<div class="ch-item ch-img-2">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/amangaur.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Salon Spaces illustrations</h3>
-										<p>by Jeremy Slagle <a href="http://drbl.in/elmi">View on Dribbble</a></p>
+										<h3>Aman Gaur</h3>
+										<p>See me on</p>
+										<a href="https://www.facebook.com/aman.gaur.942"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
+										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
 									</div>
 								</div>
 							</div>
@@ -100,23 +102,25 @@
 						<div class="ch-item ch-img-3">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/pradeep.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Leadership Series #3</h3>
-										<p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+										<h3>Pradeep Gehlot</h3>									
+										<p>See me on</p>
+										<a href="https://www.facebook.com/pradeep.gehlot1021"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
+										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-3">
+						<div class="ch-item ch-img-4 ">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/drKapil.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Leadership Series #3</h3>
-										<p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+										<h3>Dr. Kapil</h3>
+									   <p>Assistant Professor<a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2">Nit Kurukshetra </a></p>
 									</div>
 								</div>
 							</div>
@@ -127,19 +131,19 @@
 			</section>
 		
 			<!-- Second Grid -->
-<section class="main w3-container w3-light-grey w3-hover-indigo "><br>
-			<center><p><h2>Web Team 2014</h2></p></center>
+<section class="main w3-border w3-container w3-light-grey w3-hover-indigo "><br>
+			<center><p><h3>Web Team 2016</h3></p></center>
 				<ul class="ch-grid">
 					<li>
 						<div class="ch-item ch-img-1">				
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-1">
+									<div class="ch-info-front " style="background-image: url(css/user/dayal.jpg);">
 										
 									</div>
 									<div class="ch-info-back">
-										<h3>Dayal Saini</h3><p>Team member</p>
-										<a href="#"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
+										<h3>Dayal Saini</h3><p>See me on</p>
+										<a href="https://www.facebook.com/Thhmoc67"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
 										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
 									</div>	
 								</div>
@@ -150,10 +154,12 @@
 						<div class="ch-item ch-img-2">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/amangaur.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Salon Spaces illustrations</h3>
-										<p>by Jeremy Slagle <a href="http://drbl.in/elmi">View on Dribbble</a></p>
+										<h3>Aman Gaur</h3>
+										<p>See me on</p>
+										<a href="https://www.facebook.com/aman.gaur.942"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
+										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
 									</div>
 								</div>
 							</div>
@@ -163,23 +169,25 @@
 						<div class="ch-item ch-img-3">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/pradeep.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Leadership Series #3</h3>
-										<p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+										<h3>Pradeep Gehlot</h3>									
+										<p>See me on</p>
+										<a href="https://www.facebook.com/pradeep.gehlot1021"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
+										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-3">
+						<div class="ch-item ch-img-4 ">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/drKapil.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Leadership Series #3</h3>
-										<p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+										<h3>Dr. Kapil</h3>
+									   <p>Assistant Professor<a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2">Nit Kurukshetra </a></p>
 									</div>
 								</div>
 							</div>
@@ -191,65 +199,63 @@
 		
 <!-- third Grid -->
 <section class="main w3-border w3-container w3-light-grey w3-hover-indigo "><br>
-			<center><p><h2>Our Faculty Members</h2></p></center>
+			<center><p><h3>Our Faculty</h3></p></center>
 				<ul class="ch-grid">
 					<li>
-						<div class="ch-item ch-img-1">				
+						<div class="ch-item ch-img-4 ">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-1">
-										
-									</div>
+									<div class="ch-info-front " style="background-image: url(css/user/draksingh.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Dayal Saini</h3><p>Team member</p>
-										<a href="#"><i class="fa fa-facebook-square" style="font-size:25px;"></i></a>
-										<a href="#"><i class="fa fa-linkedin-square" style="font-size:25px;"></i></a>
-									</div>	
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
-									<div class="ch-info-back">
-										<h3>Salon Spaces illustrations</h3>
-										<p>by Jeremy Slagle <a href="http://drbl.in/elmi">View on Dribbble</a></p>
+										<h3>Dr. Ashutosh Kumar Singh</h3>
+									   <p>Head Of Department (MCA)<a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2">Nit Kurukshetra </a></p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-3">
+						<div class="ch-item ch-img-4 ">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/drsarika.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Leadership Series #3</h3>
-										<p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+										<h3>Dr. Sarika Jain</h3>
+									   <p>Assistant Professor<a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2">Nit Kurukshetra </a></p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item ch-img-3">
+						<div class="ch-item ch-img-4 ">
 							<div class="ch-info-wrap">
 								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
+									<div class="ch-info-front " style="background-image: url(css/user/drKapil.jpg);"></div>
 									<div class="ch-info-back">
-										<h3>Leadership Series #3</h3>
-										<p>by Dustin Leer <a href="http://drbl.in/dfhn">View on Dribbble</a></p>
+										<h3>Dr. Kapil Gupta</h3>
+									   <p>Assistant Professor<a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2">Nit Kurukshetra </a></p>
 									</div>
 								</div>
 							</div>
 						</div>
-
 					</li>
-					<center><button type="button w3-indigo" class="btn btn-primary">For More</button></center><br>
+					<li>
+						<div class="ch-item ch-img-4 ">
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front " style="background-image: url(css/user/draksingh.jpg);"></div>
+									<div class="ch-info-back">
+										<h3>Dr. Ashutosh Kumar Singh</h3>
+									   <p>Head Of Department<a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2">Nit Kurukshetra </a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					
+					<center><a href="http://nitkkr.ac.in/pagesUI/homePage.jsf?pageEvent=77&page=content&language=2"><button type="button w3-indigo" class="btn btn-primary">For More</button></a></center><br>
 				</ul>
 				
 			</section>
@@ -258,19 +264,19 @@
 <footer class="w3-grey w3-border w3-card-2 w3-container w3-fixed-bottom">
 <div  class="w3-grey w3-center w3-row-padding w3-padding-4  w3-container">
   <div class="w3-content">
-    <a href="#" class="w3-circle"><i class="fa fa-facebook-square" style="font-size:40px;color:white;"></i></a>
-    <a href="#" class="w3-circle"><i class="fa fa-twitter-square" style="font-size:40px;color:white;"></i></a>
-    <a href="#" class="w3-circle"><i class="fa fa-linkedin-square" style="font-size:40px;color:white;"></i></a>
-    <a href="#" class="w3-circle"><i class="fa fa-google-plus-square" style="font-size:40px;color:white;"></i></a>  
+    <a href="#" ><i class="fa fa-facebook-square" ></i></a>
+    <a href="#" ><i class="fa fa-twitter-square" ></i></a>
+    <a href="#" ><i class="fa fa-linkedin-square" ></i></a>
+    <a href="#" ><i class="fa fa-google-plus-square" ></i></a>  
     <div class="w3-third w3-center">
 
     </div>
     <div class="w3-third w3-leftr">
-
+ 
     </div>
   </div>
 </div>
-  <h6><center><span > @all coptrights reserved by alumni association nitkkr</span></center></h6>
+  
 </footer>
 
 </body>

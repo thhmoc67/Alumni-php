@@ -23,7 +23,7 @@
 <!--Body Starts-->
 <body data-spy="scroll" data-target="collapse" data-offset="50">
 <!--Navigation Bar-->
-  <nav class="navbar navbar-default navbar-fixed-top w3-indigo">
+  <nav class="navbar w3-card-8 navbar-default navbar-fixed-top w3-indigo">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -40,17 +40,18 @@
           <li class="active"><a class="w3-text-white  w3-hover-text-green " href="home.php">Home</a></li>
           <li><a class="w3-text-white  w3-hover-text-green" href="alumni.php">Alumni</a></li>
           <li><a class="w3-text-white  w3-hover-text-green" href="gallery.php">Gallery</a></li>
-          <li><a class="w3-text-white  w3-hover-text-green" href="#">Career</a></li>
-          <li><a class="w3-text-white  w3-hover-text-green" href="contactUs.php">Contact Us</a></li>
+          <li><a class="w3-text-white  w3-hover-text-green" href="Testimonials.php">Testimonials</a></li>
+          <li><a class="w3-text-white  w3-hover-text-green" href="contactUs.php">About Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!--header NITkkr-->
-<header  id="header1" class=" w3-container w3-teal">
-  <h4><center class="animated bounceInDown">National Institute of Technology, Kurukshetra</center</h4>
-</header>
+    <!--Nit Kkr Header-->
+    <header  id="header1" class="w3-card-4 w3-container w3-teal">
+    <h4><center>National Institute of Technology, Kurukshetra</center></h4>
+    </header>
+
 
 
 <!--Crasoul-->
@@ -159,8 +160,22 @@
 </div>
 
 <!--footer-->
-<footer class="w3-grey w3-card-2 w3-container">
-  <h6><center><span > @all coptrights reserved by alumni association nitkkr</span></center></h6>
+<footer class="w3-grey w3-border w3-card-2 w3-container w3-fixed-bottom">
+<div  class="w3-grey w3-center w3-row-padding w3-padding-4  w3-container">
+  <div class="w3-content">
+    <a href="#" ><i class="fa fa-facebook-square" ></i></a>
+    <a href="#" ><i class="fa fa-twitter-square" ></i></a>
+    <a href="#" ><i class="fa fa-linkedin-square" ></i></a>
+    <a href="#" ><i class="fa fa-google-plus-square" ></i></a>  
+    <div class="w3-third w3-center">
+
+    </div>
+    <div class="w3-third w3-leftr">
+
+    </div>
+  </div>
+</div>
+  
 </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -13,7 +13,111 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <style type="text/css">
+      #input-bg{
+        background-color: #4dcb6d;
+        padding: 10px;
+      }
 
+
+      #input-submit{
+        background-color: #4dcb6d; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 20px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    </style>
+    <style>
+form {
+  margin: 40px 0;
+}
+.rad {
+  clear: both;
+  margin: 0 50px;
+}
+
+label {
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid #D1D3D4
+}
+
+/* hide input */
+input.radio:empty {
+  margin-left: -999px;
+}
+
+/* style label */
+input.radio:empty ~ label {
+  position: relative;
+  float: left;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  margin-top: 2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.radio:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: #D1D3D4;
+  border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+  content:'\2714';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+  color: #888;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+  content:'\2714';
+  text-indent: .9em;
+  color: #9CE2AE;
+  background-color: #4DCB6D;
+}
+
+input.radio:checked ~ label {
+  color: #777;
+}
+.txtalumni{
+  border:2px solid #456879;
+                    border-radius:10px;
+                    height: 30px;
+                    width: 230px; 
+}
+</style>
+
+  <style type="text/css">
+    .box{
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+
+    }
+    .red{ background: #ff0000; }
+    .green{ background: #00ff00; }
+    .blue{ background: #0000ff; }
+</style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,7 +129,7 @@
 <!--Body Starts-->
 <body data-spy="scroll" data-target="collapse" data-offset="50">
 <!--Navigation Bar-->
-  <nav class="navbar navbar-default navbar-fixed-top w3-indigo">
+  <nav class="navbar w3-card-8 navbar-default navbar-fixed-top w3-indigo">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -42,8 +146,8 @@
           <li><a class="w3-text-white  w3-hover-text-green " href="home.php">Home</a></li>
           <li class="active"><a class="w3-text-white  w3-hover-text-green" href="alumni.php">Alumni</a></li>
           <li><a class="w3-text-white  w3-hover-text-green" href="gallery.php">Gallery</a></li>
-          <li><a class="w3-text-white  w3-hover-text-green" href="#">Career</a></li>
-          <li><a class="w3-text-white  w3-hover-text-green" href="contactUs.php">Contact Us</a></li>
+          <li><a class="w3-text-white  w3-hover-text-green" href="Testimonials.php">Testimonials</a></li>
+          <li><a class="w3-text-white  w3-hover-text-green" href="contactUs.php">Anout Us</a></li>
         </ul>
       </div>
     </div>
@@ -107,27 +211,27 @@
         </form>
       </p>
     </div>
-    <div class="w3-twothird w3-center"  style="float:right">
-	<div class="name box">
+    <div class="w3-twothird w3-center "  style="float:right">
+	<div  class="name box">
       <form action="alumni.php" method="post">
-        First name: <input type="text" class="txtalumni"name="Firstname" id = 'Firstname'></br></br>
-        Last name: <input type="text"class="txtalumni"name="lastName" id = "lastName"><br><br>
-        <input type="submit" name="submit" value="Submit">
+        First name: <input id="input-bg" type="text" class="txtalumni"name="Firstname" id = 'Firstname'></br></br>
+        Last name: <input id="input-bg" type="text"class="txtalumni"name="lastName" id = "lastName"><br><br>
+        <input id="input-submit" type="submit" name="submit" value="Submit">
          <p id="math_res"></p>
 		 </div>
       </form >
 	  <div class="company box">
       <form action="alumni.php" method="POST">
-        Company: <input type="text" class="txtalumni"name="company" id = 'company'><br><br>
-        <input type="submit" name="submit" value="Submit">
+        Company: <input id="input-bg" type="text" class="txtalumni"name="company" id = 'company'><br><br>
+        <input id="input-submit" type="submit" name="submit" value="Submit">
          <p id="math_res"></p>
 		 </div>
       </form>
 	  <div class="year box">
       <form action="alumni.php" method="POST">
-        Year: <input type="text"class="txtalumni" name="year" id = 'year'>
+        Year: <input id="input-bg" type="text"class="txtalumni" name="year" id = 'year'>
         <br><br>
-        <input type="submit" name="submit" value="Submit">
+        <input id="input-submit" type="submit" name="submit" value="Submit">
          <p id="math_res"></p>
 		 </div>
       </form>
@@ -140,17 +244,6 @@
 
  <!--  lists -->
 
-  <style type="text/css">
-    .box{
-        padding: 20px;
-        display: none;
-        margin-top: 20px;
-
-    }
-    .red{ background: #ff0000; }
-    .green{ background: #00ff00; }
-    .blue{ background: #0000ff; }
-</style>
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -238,87 +331,27 @@ while ($line = mysqli_fetch_array($result)) { ?>
 <?php } } ?>
 
 <!--footer-->
-<footer class="w3-grey w3-card-2 w3-container">
-  <h6><center><span > @all coptrights reserved by alumni association nitkkr</span></center></h6>
+<footer class="w3-grey w3-border w3-card-2 w3-container w3-fixed-bottom">
+<div  class="w3-grey w3-center w3-row-padding w3-padding-4  w3-container">
+  <div class="w3-content">
+    <a href="#" ><i class="fa fa-facebook-square" ></i></a>
+    <a href="#" ><i class="fa fa-twitter-square" ></i></a>
+    <a href="#" ><i class="fa fa-linkedin-square" ></i></a>
+    <a href="#" ><i class="fa fa-google-plus-square" ></i></a>  
+    <div class="w3-third w3-center">
+
+    </div>
+    <div class="w3-third w3-leftr">
+
+    </div>
+  </div>
+</div>
+  
 </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
-<style>
-form {
-	margin: 40px 0;
-}
-.rad {
-	clear: both;
-	margin: 0 50px;
-}
 
-label {
-  width: 200px;
-  border-radius: 3px;
-  border: 1px solid #D1D3D4
-}
-
-/* hide input */
-input.radio:empty {
-	margin-left: -999px;
-}
-
-/* style label */
-input.radio:empty ~ label {
-	position: relative;
-	float: left;
-	line-height: 2.5em;
-	text-indent: 3.25em;
-	margin-top: 2em;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-input.radio:empty ~ label:before {
-	position: absolute;
-	display: block;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	content: '';
-	width: 2.5em;
-	background: #D1D3D4;
-	border-radius: 3px 0 0 3px;
-}
-
-/* toggle hover */
-input.radio:hover:not(:checked) ~ label:before {
-	content:'\2714';
-	text-indent: .9em;
-	color: #C2C2C2;
-}
-
-input.radio:hover:not(:checked) ~ label {
-	color: #888;
-}
-
-/* toggle on */
-input.radio:checked ~ label:before {
-	content:'\2714';
-	text-indent: .9em;
-	color: #9CE2AE;
-	background-color: #4DCB6D;
-}
-
-input.radio:checked ~ label {
-	color: #777;
-}
-.txtalumni{
-	border:2px solid #456879;
-	                  border-radius:10px;
-	                  height: 30px;
-	                  width: 230px; 
-}
-</style>
 </html>
